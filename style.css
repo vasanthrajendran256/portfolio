@@ -163,6 +163,7 @@ main{
 .skills{
     margin: 10px;
     padding: 10px;
+    padding-top: 0px;
 }
 .skillspage h3{
   font-size: 25px;
@@ -228,7 +229,7 @@ main{
     font-size: 20px;
 }
 .bottom{
-    gap:175px;
+    gap:150px;
     display:flex;
 }
 input{
