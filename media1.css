@@ -226,6 +226,13 @@ padding: 10px;
 }
 .contactpage h3{
   font-size: 20px;
+  
+  
+}
+.bottom h3{
+  font-size: 20px;
+  text-decoration: underline;
+  
 }
 .contactpage h1{
     
@@ -246,13 +253,21 @@ padding: 10px;
     border-radius: 10px;
     padding: 10px;
     font-size: 16px;
+    text-align: start;
+    align-items: center;
+    
 }
 .bottom{
     gap:100px;
+     display: contents;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 input{
+    
     padding: 10px;
-    width:150px;
+    width:450px;
     border: 1px solid beige;
     border-radius: 10px;
 }
@@ -266,7 +281,7 @@ button{
 }
 textarea{
     padding: 10px;
-    width:250px;
+    width:450px;
     height:100px;
     border-radius: 10px;
      border: 1px solid beige;
