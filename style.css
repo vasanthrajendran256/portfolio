@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #0D1026 ;
+    font-family: "Playfair Display", serif;
+
+}
+header{
+    background-color: #080B1A ;
+    height: 60px;
+    padding: 5px;
+}
+
+.home{
+   display: flex;
+   justify-content: space-evenly;
+}
+.title img{
+    height:50px;
+    width: 50px;
+}
+.title{
+    color: azure;
+    display: flex;
+    gap :10px;
+}
+h1{
+    padding-top: 6px;
+}
+.section{
+    gap: 60px;
+    color:azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px;
+    font-size: large;
+    
+}
+.section div{
+    font-size: 15px;
+}
+.corner{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.corner img{
+    height:35px;
+    width: 35px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    gap:100px;
+}
+.content{
+    
+    align-content: center;
+}
+.content h3{
+    font-size: 40px;
+}
+.content h1{
+    
+    font-size: 70px;
+}
+.content p{
+    font-size: 18px;
+    gap: 20px;
+    word-spacing: 2px;
+}
+.content button{
+    color: azure;
+    background-color: rgb(8, 8, 30);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width:200px;
+}
+
+.body img{
+    height:420px;
+    width:330px;
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+   
+
+}
+.aboutpage{
+ padding-top: 0px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.aboutpage h3{
+  font-size: 25px;
+}
+.aboutpage h1{
+    
+  font-size: 45px;
+}
+.aboutpage p{
+  font-size: 18px;
+  gap: 20px;
+  word-spacing: 2px;
+}
+.bottomabout{
+    display: grid;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.aboutpage div{
+    grid-template-columns: repeat(2 ,5fr);
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.education{
+    color: azure;
+}
+.about{
+    margin: 10px;
+    padding: 10px;
+   
+
+}
+.aboutpage{
+ padding-top: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.bottomabout img{
+    height: 30px;
+    width: 30px;
+}
+
+.skills{
+    margin: 10px;
+    padding: 10px;
+}
+.skillspage h3{
+  font-size: 25px;
+}
+.skillspage h1{
+    
+  font-size: 45px;
+  text-align: center;
+}
+.skillspage p{
+  font-size: 18px;
+  gap: 20px;
+  word-spacing: 2px;
+  text-align: center;
+}
+.skillbox{
+    color:white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+}
+.techskills div{
+    width: 500px;  
+    grid-template-columns: repeat(2 ,1fr);
+    border-radius: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(4, 4, 4);
+    background-color: rgb(64, 98, 87);
+}
+.techskills img{
+       height: 50px;
+       width: 50px;
+}
+.contact{
+    margin: 10px;
+    padding: 10px;
+}
+.contactpage h3{
+  font-size: 25px;
+}
+.contactpage h1{
+    
+  font-size: 45px;
+  text-align: center;
+}
+.contactpage p{
+  font-size: 18px;
+  gap: 20px;
+  word-spacing: 2px;
+  text-align: center;
+}
+.contactinfo{
+    color:aliceblue;
+   padding-left: 100px;
+}
+.contactinfo div{ 
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.bottom{
+    gap:175px;
+    display:flex;
+}
+input{
+    padding: 10px;
+    width:400px;
+    border: 1px solid beige;
+    border-radius: 10px;
+}
+button{
+     color: azure;
+    background-color: rgb(38, 38, 206);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px; 
+width: 400px;
+}
+textarea{
+padding: 10px;
+    width:400px;
+    height:100px;
+    border-radius: 10px;
+     border: 1px solid beige;
+}
+footer{
+    color: #0D1026;
+    background-color: bisque;
+    font-weight: 800;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
