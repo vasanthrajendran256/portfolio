@@ -1,4 +1,4 @@
-@media(max-width:767px){
+@media(max-width:727px){
     .home{
    display: flex;
    justify-content: space-evenly;
@@ -21,10 +21,12 @@ h1{
 }
 
 }
-@media(max-width:767px){
+@media(max-width:727px){
     .body{
     display: flex;
     padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 20px;
     gap:0px;
     
 }
@@ -60,7 +62,7 @@ h1{
 
 }
 
-@media(max-width:767px){
+@media(max-width:727px){
     .about{
     margin: 10px;
     padding: 0px;
@@ -108,7 +110,7 @@ h1{
 }
 
 }
-@media(max-width:767px){
+@media(max-width:727px){
    
 .skills{
     margin: 10px;
