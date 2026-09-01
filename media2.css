@@ -65,7 +65,7 @@ h1{
 @media(max-width:727px){
     .about{
     margin: 10px;
-    padding: 0px;
+    padding-bottom: 20px;
    
 
 }
@@ -103,7 +103,7 @@ h1{
     width: 20px;
 }
 .aboutpage div{
-    grid-template-columns: repeat(2 ,5fr);
+    grid-template-columns: repeat(1 ,1fr);
     border-radius: 10px;
     padding: 10px;
    
