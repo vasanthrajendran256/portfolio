@@ -30,7 +30,6 @@
 @media(max-width:900px){
     .body{
     display: flex;
-    
     padding-bottom: 20px;
     
 }
@@ -258,16 +257,12 @@ padding: 10px;
     
 }
 .bottom{
-    gap:100px;
-     display: contents;
-     text-align: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
 }
 input{
-    
     padding: 10px;
-    width:450px;
+    width:100%;
     border: 1px solid beige;
     border-radius: 10px;
 }
@@ -277,13 +272,22 @@ button{
     border: 2px solid white;
     padding: 10px;
     border-radius: 15px; 
-    width: 200px;
+width: 100%;
 }
 textarea{
-    padding: 10px;
-    width:450px;
-    height:100px;
+padding: 10px;
+    width:400px;
+    height:100%;
     border-radius: 10px;
      border: 1px solid beige;
+}
+footer{
+    color: #0D1026;
+    background-color: bisque;
+    font-weight: 800;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 }
