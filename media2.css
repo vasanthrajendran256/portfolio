@@ -172,7 +172,8 @@ h1{
 .contactinfo div{ 
     border-radius: 10px;
     font-size: 12px;
-}
+}}
+@media(max-width:727px){
 .bottom{
     gap:10px;
     display:contents;
