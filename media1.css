@@ -57,6 +57,13 @@
     border-radius: 15px;
     width:150px;
 }
+content button:hover{
+    
+    color: black;
+    background-color: rgb(250, 250, 252);
+    
+}
+
 
 .body img{
     height:350px;
@@ -266,7 +273,7 @@ input{
     border: 1px solid beige;
     border-radius: 10px;
 }
-button{
+.bottom button{
      color: azure;
     background-color: rgb(38, 38, 206);
     border: 2px solid white;
