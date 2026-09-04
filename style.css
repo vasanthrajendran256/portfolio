@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -6,18 +8,20 @@
 }
 body{
     background-color: #0D1026 ;
-    font-family: "Playfair Display", serif;
+     font-family: "Slabo 13px", serif;
 
 }
 header{
     background-color: #080B1A ;
-    height: 60px;
+  
     padding: 5px;
 }
 
 .home{
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
+ padding: 10px;
+   margin: 0px;
 }
 .title img{
     height:50px;
@@ -32,18 +36,18 @@ h1{
     padding-top: 6px;
 }
 .section{
-    gap: 60px;
+    gap: 50px;
     color:azure;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     font-weight: 600;
     padding: 10px;
-    font-size: large;
     
 }
 .section div{
-    font-size: 15px;
+    font-size: 18px;
+    
 }
 .corner{
     justify-content: center;
@@ -64,11 +68,11 @@ main{
 }
 .body{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
      padding-bottom: 50px;
     padding-top: 20px;
-   
-    gap:100px;
+    padding: 10px;
+    margin: 10px;
 }
 .content{
     
@@ -229,7 +233,7 @@ main{
     font-size: 20px;
 }
 .bottom{
-    gap:150px;
+    justify-content: space-evenly;
     display:flex;
 }
 input{
