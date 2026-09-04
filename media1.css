@@ -1,39 +1,42 @@
-@media(max-width:900px){
-   .section{
-   gap: 30px;
-    color:azure;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    padding: 10px;
-    font-size: large;
-   }
+@media(max-width:727px){
+    .home{
+   display: flex;
+   justify-content: space-evenly;
 }
-@media(max-width:900px){
-   .section{
-   display: none;
-   }
+.title img{
+    height:50px;
+    width: 50px;
 }
-@media(max-width:900px){
-.corner img{
-    display: none;
-}}
-@media(max-width:900px){
-.home{
-    justify-content: center;
-   align-items: center;
-  
-}}
-
-/* home */
-@media(max-width:900px){
-    .body{
+.content button:hover{
+    
+    color: black;
+    background-color: rgb(250, 250, 252);
+    border:1px solis black;
+}
+.title{
+    color: azure;
     display: flex;
-    padding-bottom: 20px;
+    gap :10px;
+}
+h1{
+    padding-top: 6px;
     
 }
-.content{
+.section{
+    display: none;
+    
+}
+
+}
+@media(max-width:727px){
+    .body{
+    
+    padding: 10px;
+    
+    gap:0px;
+    
+}
+    .content{
     
     align-content: center;
 }
@@ -42,42 +45,34 @@
 }
 .content h1{
     
-    font-size: 40px;
+    font-size: 30px;
 }
 .content p{
-    font-size: 16px;
+    font-size: 12px;
     gap: 20px;
-    word-spacing: 2px;
+  
 }
 .content button{
     color: azure;
-    background-color: rgb(8, 8, 30);
+    background-color: rgb(253, 253, 255,0.2);
     border: 2px solid white;
-    padding: 10px;
     border-radius: 15px;
-    width:150px;
+    padding: 5px;
+    font-size: 10px;
+    width: 90px;
 }
-content button:hover{
-    
-    color: black;
-    background-color: rgb(250, 250, 252);
-    
-}
-
 
 .body img{
-    height:350px;
-    width:260px;
+    height:170px;
+    width:130px;
 }
+
 }
 
-
-
-
-@media(max-width:900px){
+@media(max-width:727px){
     .about{
     margin: 10px;
-    padding: 10px;
+    padding-bottom: 20px;
    
 
 }
@@ -94,61 +89,50 @@ content button:hover{
 }
 .aboutpage h1{
     
-  font-size: 40px;
+  font-size: 30px;
 }
 .aboutpage p{
-  font-size: 16px;
+  font-size: 12px;
   gap: 20px;
   word-spacing: 2px;
+  
 }
 .bottomabout{
     display: grid;
     height: 200px;
     align-items: center;
     justify-content: center;
-    
+    font-size: 12px;
+    padding: 0px;
+}
+.bottomabout img{
+    height: 20px;
+    width: 20px;
 }
 .aboutpage div{
-    grid-template-columns: repeat(2 ,5fr);
+    grid-template-columns: repeat(1 ,1fr);
     border-radius: 10px;
     padding: 10px;
    
 }
-.education{
-    color: azure;
+
 }
-.about{
-    margin: 10px;
-    padding: 10px;
+@media(max-width:727px){
    
-
-}
-.aboutpage{
- padding-top: 10px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-}
-
-
-@media(max-width:900px){
-    .skills{
+.skills{
     margin: 10px;
-    padding: 10px;
+    padding: 0px;
 }
 .skillspage h3{
   font-size: 20px;
 }
 .skillspage h1{
     
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 .skillspage p{
-  font-size: 16px;
+  font-size: 12px;
   gap: 20px;
   word-spacing: 2px;
   text-align: center;
@@ -162,31 +146,34 @@ content button:hover{
     text-align: center;
 }
 .techskills div{
-    width: 500px;  
+    width: 200px;  
     grid-template-columns: repeat(2 ,1fr);
     border-radius: 50px;
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
     border: 5px solid rgb(4, 4, 4);
     background-color: rgb(64, 98, 87);
 }
+.techskills img{
+       height: 20px;
+       width: 20px;
 }
-@media(max-width:900px){
-    .contact{
+   .contact{
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+   
 }
 .contactpage h3{
   font-size: 20px;
 }
 .contactpage h1{
     
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 .contactpage p{
-  font-size: 16px;
+  font-size: 12px;
   gap: 20px;
   word-spacing: 2px;
   text-align: center;
@@ -197,104 +184,47 @@ content button:hover{
 }
 .contactinfo div{ 
     border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
+  
+    font-size: 12px;
 }
 .bottom{
-    gap:50px;
-}
-input{
-    padding: 10px;
-    width:150px;
-    border: 1px solid beige;
-    border-radius: 10px;
-}
-button{
-     color: azure;
-    background-color: rgb(38, 38, 206);
-    border: 2px solid white;
-    padding: 10px;
-    border-radius: 15px; 
-    width: 100px;
-}
-textarea{
-padding: 10px;
-    width:300px;
-    height:100px;
-    border-radius: 10px;
-     border: 1px solid beige;
-}
-}
-@media(max-width:1100px){
-    .contact{
-    margin: 10px;
-    padding: 10px;
-}
-.contactpage h3{
-  font-size: 20px;
-  
-  
-}
-.bottom h3{
-  font-size: 20px;
-  text-decoration: underline;
-  
-}
-.contactpage h1{
-    
-  font-size: 40px;
-  text-align: center;
-}
-.contactpage p{
-  font-size: 16px;
-  gap: 20px;
-  word-spacing: 2px;
-  text-align: center;
-}
-.contactinfo{
-    color:aliceblue;
-   padding-left: 5px;
-}
-.contactinfo div{ 
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 16px;
-    text-align: start;
-    align-items: center;
-    
-}
-.bottom{
-    justify-content: space-evenly;
-    display:flex;
+    gap:10px;
+    display:contents;
+     
 }
 input{
     padding: 10px;
     width:100%;
     border: 1px solid beige;
     border-radius: 10px;
+    height: 10px;
 }
-.bottom button{
-     color: azure;
+button{
+    color: azure;
     background-color: rgb(38, 38, 206);
     border: 2px solid white;
     padding: 10px;
     border-radius: 15px; 
-width: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 textarea{
-padding: 10px;
-    width:400px;
-    height:100%;
+    padding: 10px;
+    width:100%;
+    height:40px;
     border-radius: 10px;
-     border: 1px solid beige;
+    border: 1px solid beige;
 }
 footer{
     color: #0D1026;
     background-color: bisque;
-    font-weight: 800;
+    font-weight: 400;
     padding: 5px;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-}
+}}
+
+
+ 
