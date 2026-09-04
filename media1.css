@@ -189,7 +189,7 @@ h1{
 }
 .bottom{
     gap:10px;
-    display:contents;
+    display:none;
      
 }
 input{
