@@ -1,4 +1,13 @@
 @media(max-width:727px){
+    body{
+    background-image: url(img/image1.png);
+    
+     font-family: "Slabo 13px", serif;
+      background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
     .home{
    display: flex;
    justify-content: space-evenly;
