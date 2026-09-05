@@ -8,7 +8,7 @@
 body{
     background-image: url(img/image.png);
     
-     font-family: "Slabo 13px", serif;
+      font-family: 'Inter', sans-serif;
       background-size: cover;
   background-position: center;
     background-repeat: no-repeat;
@@ -17,21 +17,24 @@ body{
 p{
     line-height: 25px;
 }
-header{
-    
-  
-    padding: 5px;
+header{   
+  background-color: rgba(90, 86, 86, 0.2);
+  border:1px solid rgb(108, 101, 101);
+  border-radius: 30px;
+  margin:10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .home{
    display: flex;
    justify-content: space-between;
- padding: 10px;
+ padding: 0px;
    margin: 0px;
 }
 .title img{
-    height:50px;
-    width: 50px;
+    height:45px;
+    width: 45px;
 }
 .title{
     color: azure;
@@ -39,16 +42,18 @@ header{
     gap :10px;
 }
 h1{
-    padding-top: 6px;
+     font-family: 'Poppins', sans-serif;
+    
 }
 .section{
-    gap: 50px;
+    gap: 40px;
     color:azure;
     display: flex;
     justify-content:center;
     align-items: center;
     font-weight: 600;
     padding: 10px;
+   font-family: 'Poppins', sans-serif;
     
 }
 .section div{
@@ -56,14 +61,13 @@ h1{
     
 }
 .corner{
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+   padding-top :5px;
 }
+
 .corner img{
     height:35px;
     width: 35px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgba(148, 125, 125,0.2);
     border-radius: 25px;
 }
 main{
@@ -86,11 +90,13 @@ main{
 }
 .content h3{
     font-size: 40px;
+     font-family: 'Poppins', sans-serif;
 }
 .content h1{
 
    letter-spacing: 8px;
     font-size: 60px;
+     font-family: 'Poppins', sans-serif;
 }
 .content p{
     font-size: 18px;
@@ -132,9 +138,10 @@ main{
 }
 .aboutpage h3{
   font-size: 25px;
+   font-family: 'Poppins', sans-serif;
 }
 .aboutpage h1{
-    
+     font-family: 'Poppins', sans-serif;
   font-size: 45px;
 }
 .aboutpage p{
@@ -184,11 +191,13 @@ main{
 }
 .skillspage h3{
   font-size: 25px;
+   font-family: 'Poppins', sans-serif;
 }
 .skillspage h1{
     
   font-size: 45px;
   text-align: center;
+   font-family: 'Poppins', sans-serif;
 }
 .skillspage p{
   font-size: 18px;
@@ -224,11 +233,13 @@ main{
 }
 .contactpage h3{
   font-size: 25px;
+   font-family: 'Poppins', sans-serif;
 }
 .contactpage h1{
     
   font-size: 45px;
   text-align: center;
+   font-family: 'Poppins', sans-serif;
 }
 .contactpage p{
   font-size: 18px;
